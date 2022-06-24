@@ -1,0 +1,37 @@
+#email-label,#password-label{
+    display: block;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#login-button
+{ 
+    display: block;
+    margin:10px auto 0;
+    width:150px;
+    border-radius: 10px;
+
+}
+
+.register-forgot p{
+    display: inline;
+}
+
+#login-register,#login-forgot{
+    margin-top: 20px;
+    margin-left: 10px;
+    width:150px;
+    border-radius: 10px;
+}
+
+.login{
+    margin-top: 100px;
+}
+
+#text-login{
+     font-size: 25px;
+     font-family: 'Times New Roman', Times, serif;
+}
+.email,.password{
+    width:250px;
+}

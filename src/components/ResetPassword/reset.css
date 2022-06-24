@@ -1,0 +1,37 @@
+.resetpassword{
+    margin-top: 80px;
+}
+
+.enter-password,.confirm-password{
+    display:block;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#enter-password,#forgot-password{
+
+    width:300px;
+}
+
+#reset-button{
+    display: block;
+    margin: 20px auto;
+    width:150px;
+    border-radius: 10px;
+    padding:6px;
+
+}
+
+.validation-error{
+    font-size: 20px;
+
+}
+
+.success-message{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.page-error{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}

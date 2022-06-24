@@ -1,0 +1,12 @@
+.shortenURL{
+    margin-top: 80px;
+}
+
+#long-url{
+    width:300px;
+    padding:5px;
+}
+
+.short-button{
+    padding:5px; 
+}
