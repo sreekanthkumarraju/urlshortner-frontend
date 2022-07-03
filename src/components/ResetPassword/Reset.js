@@ -41,7 +41,7 @@ export default function Reset(){
              }
         })   
 
-        let url=`http://localhost:5080/reset-password/${params.id}/${params.token}`
+        let url=`https://assign-mentor-fullstack.herokuapp.com/reset-password/${params.id}/${params.token}`
         const reset=async (values)=>{
             console.log(values)
              await axios.post(url,values)

@@ -15,7 +15,7 @@ export default function ActivateUser(){
         if(token){
             const activationEmail = async () => {
                 try {
-                    const res = await axios.post('http://localhost:5080/activate-user', {token})
+                    const res = await axios.post('https://assign-mentor-fullstack.herokuapp.com/activate-user', {token})
                     console.log(res)
                     setMessage(res.data.message)
                     setError(res.data.errors)

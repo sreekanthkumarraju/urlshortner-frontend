@@ -34,7 +34,7 @@ export default function ForgotPassword(){
     
     const verifyEmail=async (values)=>{
 
-        await axios.post('http://localhost:5080/forgotpassword',values)
+        await axios.post('https://assign-mentor-fullstack.herokuapp.com/forgotpassword',values)
          .then((res)=>{
              setMessage(res.data.message)
              setError(res.data.errors)

@@ -52,7 +52,7 @@ export default function RegisterUser(){
    })
    const postData=async (values)=>{
 
-    await axios.post('http://localhost:5080/register',values)
+    await axios.post('https://assign-mentor-fullstack.herokuapp.com/register',values)
     .then((res)=>{
         console.log(res)
     })

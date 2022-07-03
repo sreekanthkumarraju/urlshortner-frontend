@@ -34,7 +34,7 @@ export default function ShortenUrl(){
 
      const shortUrl=async (values)=>{
            
-              await axios.post('http://localhost:5080/shorten',values)
+              await axios.post('https://assign-mentor-fullstack.herokuapp.com/shorten',values)
               .then((res)=>{
                   console.log(res)
                 setUrl({
